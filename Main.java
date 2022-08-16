@@ -6,7 +6,7 @@ import java.util.HashMap;
 public class Main {
 
     public static void main(String[] args){
-        File folder = new File("/home/snocoder/Desktop/extraa/Java_File_Plagrism_Checker/src");
+        File folder = new File("test");
         File[] files = folder.listFiles();
         HashMap<String, HashMap> hm = new HashMap<>();
         for (File file : files)
